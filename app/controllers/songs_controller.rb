@@ -11,6 +11,19 @@ class SongsController < ApplicationController
   def new
   end
 
+  def edit
+    @song = Song.find(params[:id])
+  end
+
+  def update
+    @song = Song.find(params[:id])
+    if @song.update(song_params)
+      redirect_to @song
+    else
+      render 'edit'
+    end
+  end
+
   def create
     #render text: params[:song].inspect
     @song = Song.new(song_params)

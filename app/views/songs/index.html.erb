@@ -1,1 +1,15 @@
 <h1>Songs</h1>
+
+<table>
+  <tr>
+    <th>Song</th>
+  </tr>
+ 
+  <% @songs.each do |song| %>
+    <tr>
+      <td><%= link_to song.title, song_path(song) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= link_to 'New song', new_song_path %>

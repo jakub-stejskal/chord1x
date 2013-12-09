@@ -25,6 +25,13 @@ for storing chords etc. Let's the hacking begin.
 Current Tasks
 =============
 
+* login - gmail, fb, twitter login .. user accounts
+  * pobly start just with email + pass (yes we need it for the next feature)
+  * check this: http://oauth.rubyforge.org/
+
+* songbook - create simple object for users songbook (probably only one per user now..)
+  * it will contain references to songs user adds to his songbook
+
 * keyboard controll 
   * In songs list: 
     * j - down
@@ -60,11 +67,6 @@ Current Tasks
 * migration - create ability to migrate song from other page for user
   * in userspace, i.e. javascript..?
   * this is case for research
-* login - gmail, fb, twitter login .. user accounts
-  * pobly start just with email + pass (yes we need it for the next feature)
-
-* songbook - create simple object for users songbook (probably only one per user now..)
-  * it will contain references to songs user adds to his songbook
 
 * suggestions - create simple field in users profile where other people can put name or link to a song as suggestion
 

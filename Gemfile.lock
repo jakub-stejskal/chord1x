@@ -61,7 +61,7 @@ GEM
     multipart-post (1.2.0)
     newrelic_rpm (3.6.7.159)
     oauth (0.4.7)
-    oauth-plugin (0.4.1)
+    oauth-plugin (0.5.1)
       multi_json
       oauth (~> 0.4.4)
       oauth2 (>= 0.5.0)
@@ -133,7 +133,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   newrelic_rpm
-  oauth-plugin (~> 0.4.0)
+  oauth-plugin (~> 0.5.0)
   pg
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)

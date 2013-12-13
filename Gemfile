@@ -50,4 +50,4 @@ end
 gem 'newrelic_rpm'
 
 # Use OAuth for authentication
-gem "oauth-plugin", "~> 0.4.0"
+gem "oauth-plugin", "~> 0.5.0"

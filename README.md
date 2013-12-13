@@ -90,3 +90,17 @@ Current Tasks
   * let's think of a way to "free" the structure of the data
     * move to NoSQL database, where type is simply "object"
 
+* object approach
+  * as in previous section "tagging, relations, semantics..." we talk about "relations", these should 
+    be stored on "objects". 
+    * such object should be structure free (like JSON objects), 
+    * with "type" attribute specifying their inteded use and expcected structure, 
+    * but they can be pretty much anything, 
+    * underlying functionality should allow 
+      * versioning of object edits, 
+      * creating and deleting raw objects, 
+      * manual editing their atributes (just like in Futon - CouchDB user interface), 
+      * splitting one object into two, 
+      * merging two objects into one, 
+    * above this functionality, there should be an overlying web application, hiding and enclosing all this under
+      easy to use/fancy UI

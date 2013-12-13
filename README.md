@@ -22,12 +22,25 @@ The usage of standards and "modern" web techniques are to be considered during d
 HTML5 and CSS3 friendly, use opengraph, microformats (if they're still alive), find standardized format
 for storing chords etc. Let's the hacking begin. 
 
+
+
+
 Current Tasks
 =============
 
 * login - gmail, fb, twitter login .. user accounts
   * pobly start just with email + pass (yes we need it for the next feature)
-  * check this: http://oauth.rubyforge.org/
+  * check this: 
+    * http://oauth.rubyforge.org/
+  * eventually using this: 
+    * https://github.com/pelle/oauth-plugin
+  * following this tutorial: 
+    * http://stakeventures.com/articles/2009/07/21/consuming-oauth-intelligently-in-rails
+  * crating account here: 
+    * https://dev.twitter.com/docs/auth/oauth/faq and https://dev.twitter.com/apps
+  * using these to store tokens privately: 
+    * https://github.com/bkeepers/dotenv
+    * https://devcenter.heroku.com/articles/config-vars
 
 * songbook - create simple object for users songbook (probably only one per user now..)
   * it will contain references to songs user adds to his songbook

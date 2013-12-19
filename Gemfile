@@ -51,3 +51,5 @@ gem 'newrelic_rpm'
 
 # Use OAuth for authentication
 gem "oauth-plugin", "~> 0.5.0"
+
+gem 'mousetrap-rails'

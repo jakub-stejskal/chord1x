@@ -1,0 +1,19 @@
+<div class='topbar'>
+
+<% if notice %>
+  <p class="alert alert-notice"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-error"><%= alert %></p>
+<% end %>
+
+<div class='sign'>
+<% if user_signed_in? %>
+  Signed as <%= current_user.email %>. <%= link_to 'Sign out', destroy_user_session_path, :method => :delete %>
+<% else %>
+  <%= link_to 'Sign in', new_user_session_path %>
+<% end %>
+</div>
+
+
+</div>

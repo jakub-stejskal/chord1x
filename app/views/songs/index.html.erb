@@ -7,8 +7,8 @@
   </tr>
   -->
 
-  <tr>
-    <td><%= link_to 'New song', new_song_path, class: 'new-song' %></td>
+  <tr class="selected">
+    <td><%= link_to 'New song', new_song_path, data: { keybinding: 'ctrl+enter' }, class: 'new-song' %></td>
   </tr>
 
   <% @songs.each do |song| %>

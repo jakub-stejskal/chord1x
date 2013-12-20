@@ -28,6 +28,10 @@
 
   tr {
     background-color: #fafafa;
+
+    &.selected {
+      background-color: #eaeaea;
+    }
   }
 
   td {

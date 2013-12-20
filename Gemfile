@@ -53,3 +53,5 @@ gem 'newrelic_rpm'
 gem "oauth-plugin", "~> 0.5.0"
 
 gem 'mousetrap-rails'
+
+gem 'devise'
